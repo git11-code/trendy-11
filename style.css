@@ -1,0 +1,135 @@
+body{
+  margin:0px;
+  padding:0px;
+background:url("https://images.unsplash.com/photo-1591396400991-b61984a47071?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
+  height:1oo%;
+}
+.first{
+  color:pink;
+  text-align:center;
+}
+h1{
+  font-size:40px;
+  text-shadow:4px 4px 8px  cyan;
+ 
+}
+  #image{
+    transform:all 1s ease-in-out;
+    box-shadow:4px 3px 10px 8px black;
+  }
+#image:hover{
+  transform:scale(2);
+}
+.Right{
+  display:inline-block;
+   position:absolute;
+  right:34px;
+  top:10px;
+}
+.navbar{
+  display:inline-block;
+}
+.navbar li{
+  display:inline-block;
+  right:-5px;
+  padding:5px;
+  font-size:16px;
+}
+.navbar li a{
+  color:cyan;
+  text-decoration:none;
+  text-shadow:3px 3px 10px cyan;
+}
+.navbar li a:hover{
+  text-decoration:underline;
+  color:brown;
+ }
+.left{
+  display:inline-block;
+  position:absolute;
+  left:34px;
+ top:30px ; 
+  box-shadow:2px 2px 14px cyan;
+}
+h3{
+  text-align:center;
+  color:white;
+  font-style:italic;
+  text-shadow:2px 2px 10px cyan;
+  margin:0px;
+  padding:0px;
+}
+.left:hover{
+  background-color:maroon;
+}
+p{
+  color:wheat;
+}
+spam{
+  font-weight:bold;
+  font-size:20px;
+  color:grey;
+  text-shadow:3px 3px 4px brown; 
+}
+hr{
+  margin:0px 300px;
+  padding:0px;
+  transform:all 1s ease-in-out;
+}
+hr:hover{
+  transform:scale(0.5);
+}
+.items{
+  color:cyan;
+  text-align:center;
+  transition:all 1s ease-in-out;
+  text-shadow:2px 2px 8px blue;
+  
+}
+.items:hover{
+  transform:scale(1.5);
+  text-shadow:2px 2px 8px blue;
+}
+.types{
+  color:gold;
+  height:20px;
+  text-decoration:underline;
+}
+.text{
+  color:tan;
+  width:700px; 
+}
+.purse{
+  display:inline-block;
+  position:absolute;
+  right:9px;
+  top:642px;
+  transform:all 1s ease-in-all;
+  box-shadow:3px 3px 10px 8px black;
+}
+.purse:hover{
+  transform:scale(1.5);
+}
+.purse1{
+  display:inline-block;
+  position:absolute;
+  right:9px;
+  top:845px;
+  transform:all 1s ease-in-all;
+  box-shadow:3px 3px 10px 8px black;
+}
+.purse1:hover{
+  transform:scale(1.5);
+}
+.purse2{
+  display:inline-block;
+  position:absolute;
+  right:9px;
+  top:1040px;
+  margin:3px;
+  transform:all 1s ease-in-all;
+  box-shadow:3px 3px 10px 8px black;
+}
+.purse2:hover{
+  transform:scale(1.5);
+}
